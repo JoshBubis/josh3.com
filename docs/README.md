@@ -21,5 +21,5 @@ Hub registry: `/Users/jbair/Projects/hub/docs/domains.md`.
 ### Reddit app (josh3com)
 
 - Type: **script**
-- About URL: `https://josh3.com/about`
-- Redirect URI: `https://josh3.com/reddit/callback` (exact match)
+- About URL: `https://josh3.com/about` (also fine with trailing slash)
+- Redirect URI: `https://josh3.com/reddit/callback` (exact; Pages may 301 to `/reddit/callback/` and keeps `?code=`)
