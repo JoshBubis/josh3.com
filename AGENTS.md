@@ -10,6 +10,11 @@ Local path: `/Users/jbair/Projects/josh3.com`.
   `/about` (Reddit app about URL) and `/reddit/callback` (OAuth redirect).
 - Not Josh Menu. Not the résumé. No Studio, no chat widget, no surname branding.
 
+## Shared portfolio ops
+
+- Cloudflare / Turnstile / edge purge: `/Users/jbair/Projects/shared_docs/CLOUDFLARE.md`
+  (Hub owns the only API token; Turnstile ≠ CDN purge; **401 on purge ≠ rotate Vault**).
+
 ## Shipping
 
 1. Bump `?v=` on `style.css` when styles change.

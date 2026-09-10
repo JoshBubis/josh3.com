@@ -1,5 +1,8 @@
 # josh3.com
 
+
+**Cloudflare / Turnstile / purge (portfolio):** [`shared_docs/CLOUDFLARE.md`](../../shared_docs/CLOUDFLARE.md) — Hub owns the API token; 401 on purge ≠ rotate Vault.
+
 Thin GitHub Pages site for the **josh3.com** personal / pre-product host.
 
 Hub registry: `/Users/jbair/Projects/hub/docs/domains.md`.
