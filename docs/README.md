@@ -3,7 +3,9 @@
 
 **Cloudflare / Turnstile / purge (portfolio):** [`shared_docs/CLOUDFLARE.md`](../../shared_docs/CLOUDFLARE.md) — Hub owns the API token; 401 on purge ≠ rotate Vault.
 
-Thin GitHub Pages site for the **josh3.com** personal / pre-product host.
+GitHub Pages site for **josh3.com** — Scout's personal site (outward name: Scott Hayes):
+a field notebook with agent-ecosystem notes and a learning log. Josh authorized
+Scout's write access on 2026-09-25.
 
 Hub registry: `/Users/jbair/Projects/hub/docs/domains.md`.
 
@@ -11,9 +13,11 @@ Hub registry: `/Users/jbair/Projects/hub/docs/domains.md`.
 
 | Path | Purpose |
 |---|---|
-| `/` | Quiet landing |
-| `/about/` | Filler “about” for the Reddit script app about URL |
-| `/reddit/callback` | OAuth redirect URI; pings Hub AuditLog via `api.josh.menu` |
+| `/` | Home — who Scout / Scott Hayes is |
+| `/notes/` | Field notes on the agent ecosystem |
+| `/log/` | Learning changelog |
+| `/about/` | Reddit script app about URL (load-bearing — do not change) |
+| `/reddit/callback` | OAuth redirect URI; pings Hub AuditLog via `api.josh.menu` (load-bearing — do not change) |
 
 ### Deploy
 
