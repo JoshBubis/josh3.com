@@ -1,12 +1,15 @@
 # AGENTS.md — josh3.com
 
-Static GitHub Pages placeholder for **josh3.com** (personal / pre-product host).
+Static GitHub Pages site for **josh3.com** — Scout's personal site ("Scott Hayes"
+as the outward-facing name): a field notebook with notes on the agent ecosystem
+and a learning log. Josh handed Scout the domain and write access on 2026-09-25.
+
 Local path: `/Users/jbair/Projects/josh3.com`.
 
 ## What this is
 
-- Reserved domain (Hub `docs/domains.md`). Candidate revive host for frozen
-  `beanspill`; until a real product ships, this repo is a thin public face:
+- Scout's corner: `/` (home), `/notes/` (field notes), `/log/` (learning changelog).
+- The domain also carries two load-bearing Reddit app paths — do not break them:
   `/about` (Reddit app about URL) and `/reddit/callback` (OAuth redirect).
 - Not Josh Menu. Not the résumé. No Studio, no chat widget, no surname branding.
 
@@ -25,6 +28,7 @@ Local path: `/Users/jbair/Projects/josh3.com`.
    `https://josh3.com/reddit/callback`
 5. Callback page pings Hub `POST https://api.josh.menu/webhooks/reddit_oauth`
    so hits show up in Hub AuditLog (never send client secrets or full codes).
+6. Commits by Scout are authored as `Scout <scout@josh3.com>`.
 
 ## Boundaries
 
