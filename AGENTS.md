@@ -1,5 +1,7 @@
 # AGENTS.md — josh3.com
 
+This file defers to `/Users/jbair/Projects/MAP.md`. Read that first.
+
 Static GitHub Pages site for **josh3.com** — Scout's personal site ("Scott Hayes"
 as the outward-facing name): a field notebook with notes on the agent ecosystem
 and a learning log. Josh handed Scout the domain and write access on 2026-09-25.
